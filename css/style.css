@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* // 62.5% = 10px font size */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+}
+
+[id] {
+  scroll-margin-top: 84px;
+}
+
+@media (min-width: 992px) {
+  [id] {
+    scroll-margin-top: 69px;
+  }
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+  z-index: -1;
+}
+
+.orange-color {
+  color: rgb(93, 40, 113);
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-photo:hover {
+  opacity: 50%;
+}
+
+/* Nav Bar */
+.navbar-brand {
+  font-size: 2.2em;
+  text-transform: uppercase;
+}
+
+.nav-link, .navbar-toggler-icon {
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  padding: 1em 2em;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+/* welcome/hero section */
+.jumbotron {
+  position: relative;
+  height: 60rem;
+  background-image: url(../img/background.jpeg);
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+/* section */
+.aboutme-box h3 {
+  font-size: 2.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.aboutme-icon {
+  font-size: 4rem;
+}
+
+.accordion-button {
+  font-size: 1.8em;
+  padding: 1.8em;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-right: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+.social-icon i {
+  font-size: 2rem;
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover i {
+  color: #ffa500;
+
+}
+
+.contact-info p {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  padding: 10px;
+}
+
+.orange-color {
+  color: #ffa500;
+}
+
+.submit-btn {
+  background-color: #ffa500;
+  height: 50px;
+  width: 100px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  color: #ffa500;
+}
